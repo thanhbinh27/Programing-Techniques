@@ -1,0 +1,59 @@
+Bài 1:
+- Không nên đặt tên biến không có nghĩa, đề yêu cầu họ tên đầy đủ.
+-> Sửa: 
+var fullName = "Nguyen Thanh Binh";
+console.log("My full name is: " + fullName);
+
+Bài 2:
+- Tên biến nên có ý nghĩa hơn.
+-> Sửa:
+let firstNumber = 1;
+let secondNumber = 2;
+let sum2Number = firstNumber + secondNumber;
+console.log("Sum of 2 numbers is: " + sum2Number);
+
+Bài 3:
+- Tên biến nên có ý nghĩa hơn.
+-> Sửa:
+let nameString = "Thanh Binh";
+let ageNumber = 23;
+let introduce = "My name is " + nameString + ". I am " + ageNumber + " years old.";
+console.log(introduce);
+
+Bài 4:
+- Tên biến nên có ý nghĩa hơn.
+-> Sửa:
+let edgeCD = 27;
+let edgeAD = 20;
+let edgeAB = edgeCD;
+
+// E is the midpoint of AB
+let edgeAE = edgeBE = edgeAB / 2;
+
+// H is the midpoint of CD
+let edgeEH = edgeAD;
+
+let areaECD = (edgeEH * edgeCD) / 2;
+
+console.log("Area of triangle ECD is: " + areaECD + " (cm^2)");
+
+Bài 5:
+- Tên biến nên có ý nghĩa hơn.
+-> Sửa:
+//Asume total distance is 2 km
+let s = 2;
+
+// First halfway = Second halfway = Wholeway / 2
+let s1 = s2 = s / 2;
+let v1 = 60;
+let v2 = 40;
+let t1 = s1 / v1;
+let t2 = s2 / v2;
+let vAvg = s / (t1 + t2);
+
+console.log("Average velocity is: " + vAvg + " (km/h)");
+
+Đánh giá:
+- Bài 1-5: Bị vi phạm các lỗi viết code chưa chuẩn (-1)
+
+=> Điểm: 9.0

@@ -1,0 +1,1 @@
+<script src="alert.js"></script>

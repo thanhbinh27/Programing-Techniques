@@ -1,0 +1,35 @@
+flowchart:
+Bài 1:
+- Thiếu kiểm tra điều kiện a, b khác 0.
+Bài 2:
+- Thiếu kiểm tra điều kiện 0 < month < 13.
+- Kiểm tra điều kiện phải dùng hình thoi.
+Bài 3-5:
+- Thiếu kiểm tra điều kiện trong vòng lặp for.
+-> cần chi tiết hơn để tránh thiếu trường hợp.
+
+
+labs:
+Bài 1:
+- Thiếu kiểm tra điều kiện a, b khác 0.
+- Kết quả đúng khi a, b khác 0.
+
+Bài 2: Ok
+
+Bài 3:
+- Dòng 3: Không nên đặt tên biến viết hoa, dễ nhầm biến hằng số.
+- Nên cách dòng các lệnh khai báo biến, thao tác với biến, xuất kết quả.
+- Kết quả đúng.
+
+Bài 4: Ok
+Bài 5: Ok
+
+Nhận xét:
+- Ít lỗi syntax, format code -> tốt.
+- Các bài đều thiếu kiểm tra điều kiện, thiếu trường hợp (-0.5)
+- Kết quả hầu như đúng hết.
+
+=> Score: 9.5
+
+
+

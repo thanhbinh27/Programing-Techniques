@@ -1,0 +1,13 @@
+var a = Number(prompt("Enter a: "));
+var b = Number(prompt("Enter b: "));
+var temp ;
+var temp = a;
+var a = b;
+var b = temp;
+console.log("a = " + a);
+alert("a = " + a);
+document.write("a = " + a);
+document.write("<br>");
+console.log("b = " + b);
+alert("b = " + b);
+document.write("b = " + b);

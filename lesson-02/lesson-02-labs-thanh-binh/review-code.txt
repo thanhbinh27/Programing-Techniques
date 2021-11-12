@@ -1,0 +1,14 @@
+Bài 1-5:
+- Kết quả đúng, flowchart đúng.
+- Không nên dùng tiếng anh xen lẫn tiếng Việt.
+- Bài 5: tên biến total nên sửa thành totalTax sẽ hợp lý hơn,
+vì để total sẽ dễ gây hiểu nhầm mục đích của biến này.
+- Bài 5: Nếu nhấn Không Cancel lúc nhập hết input rồi thì nên dừng chương trình.
+Vì cancel là chưa nhập hết, hoặc nhập sai nên ngừng tính toán.
+
+Đánh giá:
+- Kết quả/flowcharts (1-5) đúng hết.
+- Bài 5 bị chút lỗi về luồng chạy chương trình (-0.5)
+- Vi phạm các quy tắc code chuẩn 1 lỗi chỗ tên biến, không đáng kể, không trừ.
+
+=> Score: 9.5

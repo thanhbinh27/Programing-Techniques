@@ -1,0 +1,16 @@
+glocal scope:
+function say() {..} // hoisting
+
+say(); // compiler
+function say() {
+	var name;
+	name = 'FastTrackers';
+	console.log(name);
+}
+
+function scope:
+var name; // hoisting
+
+name = "FastTrackers"; // closure
+
+console.log(name); // compiler -> FastTrackers

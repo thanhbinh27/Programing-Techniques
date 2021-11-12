@@ -1,0 +1,12 @@
+var cars = [{ brand: 'BMW', color: 'Green', capacity: '6' },
+    { brand: 'Audi', color: 'Red', capacity: '8' },
+    { brand: 'Ford', color: 'Blue', capacity: '4' }
+];
+console.log(cars);
+
+cars.sort((car1, car2) =>
+    (car1.capacity < car2.capacity) ? 1 :
+    (car1.capacity > car2.capacity) ? -1 : 0
+);
+
+console.log(cars);
